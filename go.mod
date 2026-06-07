@@ -3,7 +3,7 @@ module github.com/jaegertracing/jaeger
 go 1.26.0
 
 require (
-	github.com/ClickHouse/ch-go v0.71.0
+	github.com/ClickHouse/ch-go v0.72.0
 	github.com/ClickHouse/clickhouse-go/v2 v2.46.0
 	github.com/ag-ui-protocol/ag-ui/sdks/community/go v0.0.0-20260605151526-e2c717d2194d
 	github.com/apache/cassandra-gocql-driver/v2 v2.1.1
