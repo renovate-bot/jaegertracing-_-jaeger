@@ -3,7 +3,7 @@
 
 services:
   clickhouse:
-    image: clickhouse/clickhouse-server:26.3.57@sha256:aebd3c39b3d6b72168a600a7f6f3cb1c6856e2ba4fe112b85eaaea55c622cc7e
+    image: clickhouse/clickhouse-server:26.3.61@sha256:97310af8d8f3e39b7836c3061705c77a488a61dc0c1851f8a4f79f8d71a75d76
     container_name: clickhouse
     environment:
       - CLICKHOUSE_USER=default
