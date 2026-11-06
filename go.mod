@@ -10,7 +10,7 @@ require (
 	github.com/apache/cassandra-gocql-driver/v2 v2.1.2
 	github.com/apache/thrift v0.25.0
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
-	github.com/cenkalti/backoff/v7 v7.0.1
+	github.com/cenkalti/backoff/v7 v7.0.2
 	github.com/coder/acp-go-sdk v0.13.5
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 	github.com/dgraph-io/badger/v4 v4.9.6
