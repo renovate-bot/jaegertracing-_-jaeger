@@ -56,7 +56,7 @@ services:
   # mcp-proxy sits where a deployment's ingress would: Goose reaches Jaeger's
   # MCP endpoint only through it, so its log shows what Goose sends.
   mcp-proxy:
-    image: httpd:2.4.67
+    image: httpd:2.4.68@sha256:03f858efb82c25cb0f9962946615cdcdaf26927cb971722149b563197cfd0fdd
     volumes:
       - "./httpd.conf:/usr/local/apache2/conf/httpd.conf:ro"
     ports: ["127.0.0.1:16690:80"]
