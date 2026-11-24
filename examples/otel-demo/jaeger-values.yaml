@@ -67,7 +67,7 @@ esIndexCleaner:
   image:
     # The chart defaults to its appVersion, which is not a published tag.
     repository: jaegertracing/jaeger-es-index-cleaner
-    tag: "2.21.0@sha256:b279c63cf645acd536ee2bd578797e7226988e818aca7e0988dda4dc96c90858"
+    tag: "2.23.0@sha256:809c4f3a54444b65a90607a3ec39c8cb5dcbec45e61fcece6738a25c70cf631e"
   cmdlineParams:
     # Pinned 2.21.0 appends "-" to every nonempty prefix, then matches
     # "<prefix>jaeger-(span|service|dependencies|sampling)-<date>". Set this
