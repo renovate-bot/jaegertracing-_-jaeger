@@ -7,7 +7,7 @@ hotrod:
   enabled: true
   image:
     repository: jaegertracing/example-hotrod
-    tag: "1.72.0"
+    tag: "2.23.0@sha256:950552a68d6522d951a62bc06d6c1756a0c49adbfe7287937f7704ce2aa77d1e"
   args:
     - all
   extraArgs:
