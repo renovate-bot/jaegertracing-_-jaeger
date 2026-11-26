@@ -22,7 +22,7 @@ RUN_PUBLIC_SMOKE_TESTS="${RUN_PUBLIC_SMOKE_TESTS:-false}"
 DEPLOY_SCOPE="${JAEGER_DEMO_DEPLOY_SCOPE:-${JAEGER_OTEL_DEMO_DEPLOY_SCOPE:-jaeger}}"
 OPENSEARCH_RECOVERY="${JAEGER_OTEL_DEMO_OPENSEARCH_RECOVERY:-required}"
 # renovate: datasource=helm depName=opentelemetry-demo registryUrl=https://open-telemetry.github.io/opentelemetry-helm-charts
-OTEL_DEMO_CHART_VERSION="0.40.9"
+OTEL_DEMO_CHART_VERSION="0.42.7"
 # renovate: datasource=helm depName=opensearch registryUrl=https://opensearch-project.github.io/helm-charts
 OPENSEARCH_CHART_VERSION="3.7.0"
 # renovate: datasource=helm depName=opensearch-dashboards registryUrl=https://opensearch-project.github.io/helm-charts
